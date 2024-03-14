@@ -31,8 +31,8 @@ html {
 }
 
 nav img {
-  height: 1.6rem;
-  width: 4.339rem;
+  height: 1.603rem;
+  width: 4.43396rem;
   @media screen and (max-width: 768px) {
     height: 1.4545rem;
     width: 4rem;
@@ -706,5 +706,11 @@ code {
   font-weight: 600;
   @media screen and (max-width: 768px) {
     font-size: var(--fss-1);
+  }
+}
+
+.understanding-accordian {
+  @media screen and (min-width: 768px) {
+    height: 15.169rem;
   }
 }
