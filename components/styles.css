@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
 
 html {
+  /* overflow: hidden; */
   font-family: "Source Sans 3", sans-serif;
   font-size: 2.76vw;
-  /* transition: all 1s; */
   @media screen and (max-width: 768px) {
     font-size: 4.4vw;
   }
@@ -16,19 +16,12 @@ html {
   --clr2: #f0d0dd;
   --fss-1: 1rem; /* 22px */
   --fss-2: 0.6226rem; /* 33px */
-  --fss-3: ;
-  --fss-4: ;
-  --fss-5: ;
   --fss-33: 0.6226rem;
   --fss-16: 0.7272rem; /* 16px */
   --pic-s: 2.6rem;
   --common-font: 1rem;
   @media (max-width: 768px) {
     --fss-1: 0.6226rem;
-    --fss-2: ;
-    --fss-3: ;
-    --fss-4: ;
-    --fss-5: ;
     --pic-s: 2.364rem;
   }
 }
@@ -342,10 +335,11 @@ button {
 .our-services-card {
   margin: unset;
   margin: 10px 0;
-  width: unset !important;
-  width: 24% !important;
+  width: 7.603rem !important;
+  height: 7.358rem;
   @media screen and (max-width: 768px) {
-    width: 48% !important;
+    width: 9.95rem !important;
+    height: 9.63rem;
   }
 }
 
@@ -621,10 +615,9 @@ code {
 }
 
 @media screen and (min-width: 768px) {
-
   .acc-container-1,
   .acc-container-2 {
-    width: calc(728rem/53);
+    width: calc(728rem / 53);
     flex-shrink: 0;
   }
 }
@@ -699,6 +692,19 @@ code {
   padding: 20px 20px !important;
 }
 
-.faq-inner-container{
+.faq-inner-container {
   justify-content: space-around;
+}
+
+* {
+  border: 1px solid red;
+}
+
+.change-to-span {
+  display: inline-block !important;
+  font-size: var(--fss-33);
+  font-weight: 600;
+  @media screen and (max-width: 768px) {
+    font-size: var(--fss-1);
+  }
 }
