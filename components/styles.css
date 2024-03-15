@@ -739,3 +739,7 @@ code {
     width: 15.8636rem;
   }
 }
+
+*{
+  border: 1px solid red;
+}
