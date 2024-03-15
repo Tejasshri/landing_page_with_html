@@ -725,10 +725,10 @@ code {
   border-radius: 50% !important;
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .carousel-indicators{
     position: relative;
     bottom: 200px !important;
     border: 2px solid red !important;
   }
-}
+} */
