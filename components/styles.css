@@ -24,6 +24,10 @@ html {
   }
 }
 
+* {
+  font-family: var(--font-sans) !important;
+}
+
 .custom-nav {
   height: calc(140rem / 53);
   @media screen and (max-width: 768px) {
@@ -102,9 +106,16 @@ nav img {
 
 form > h1 {
   font-size: 1rem;
+  font-weight: 700;
+  line-height: 0.792rem;
+  width: 9.6818rem;
+  @media screen and (max-width: 768px) {
+    line-height: 1.47727rem;
+  }  
 }
 
 form > button {
+  margin: auto !important;
   font-size: 0.6223rem;
   @media screen and (max-width: 768px) {
     font-size: 1rem;
@@ -117,8 +128,16 @@ input,
 select {
   font-size: 0.6226rem;
   color: grey;
-  width: 100% !important;
-  padding: 16px 10px;
+  /* width: 100% !important; */
+  /* padding: 16px 10px; */
+  height: 1.7507rem;
+  width: 9.5777rem;
+  margin-top: 0.528rem !important;
+  @media screen and (max-width: 768px) {
+    width: 15.818rem;
+    height: 2.0722rem;
+    margin-top: 1.3636rem !important;
+  }
 }
 
 .card1 {
@@ -135,11 +154,12 @@ select {
 
 .card1 span {
   color: #2b2e33 !important;
-  font-weight: 500;
+  font-weight: 600;
   margin-left: var(--fss-33);
   width: 3.5283rem;
   font-size: 0.6226rem;
   @media screen and (max-width: 768px) {
+    font-weight: 400;
     font-size: 1rem;
     width: 5.63rem;
   }
@@ -351,8 +371,9 @@ button {
   padding: 0;
   /* max-width: 50vw; */
   font-weight: 600;
+  width: 15.4528rem;
   @media (max-width: 768px) {
-    max-width: none;
+    width: 14.7727rem;
     margin-bottom: 10px;
   }
 }
@@ -398,12 +419,14 @@ strong {
 
 .laptop-form {
   padding: calc(46rem / 53);
-  width: 31.19vw !important;
+  width: 11.3018rem !important;
+  height: 12.60377rem;
   flex-shrink: 0;
   align-self: stretch;
   z-index: 10;
   @media screen and (max-width: 768px) {
-    width: 79.4vw !important;
+    /* width: 17.8636rem !important; */
+    height: 21.3636rem !important;
     width: 100% !important;
     margin-left: 0 !important;
   }
@@ -556,11 +579,21 @@ nav button {
   background-color: transparent !important;
   @media screen and (max-width: 768px) {
     background-color: var(--clr2) !important;
+    display: flex;
+    align-items: center;
   }
 }
 
 .form-submit-btn {
   align-self: center !important;
+  font-weight: 600 !important;
+  height: 1.07rem;
+  width: 4.92rem;
+  margin: auto;
+  @media screen and (max-width: 768px) {
+    height: 1.8118rem;
+    width: 7.045rem;
+  }
 }
 
 code {
@@ -570,6 +603,7 @@ code {
 
 .types-card__title {
   margin: auto !important;
+  font-weight: 600 !important;
 }
 
 .hr-line {
@@ -732,3 +766,16 @@ code {
   }
 }
 
+.book-btn {
+  padding: 0;
+  width: 8.867rem;
+  height: 2.01886rem;
+  font-weight: 700;
+  font-size: var(--fss-33);
+  @media screen and (max-width: 768px) {
+    width: 7rem;
+    height: 1.3636rem;
+    font-weight: 600;
+    font-size: var(--fss-16);
+  }
+}
