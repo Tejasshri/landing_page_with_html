@@ -725,14 +725,6 @@ code {
   border-radius: 50% !important;
 }
 
-/* @media screen and (max-width: 768px) {
-  .carousel-indicators{
-    position: relative;
-    bottom: 200px !important;
-    border: 2px solid red !important;
-  }
-} */
-
 .guidance-card .card-title {
   width: 9.15094rem;
   @media screen and (max-width: 768px) {
@@ -740,6 +732,3 @@ code {
   }
 }
 
-*{
-  border: 1px solid red;
-}
