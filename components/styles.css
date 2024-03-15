@@ -714,11 +714,12 @@ code {
   }
 }
 
-.accordion-button{
+.accordion-button {
   box-shadow: none !important;
 }
 
-.carousel-indicators button, .carousel-indicators [data-bs-target] {
+.carousel-indicators button,
+.carousel-indicators [data-bs-target] {
   height: 10px;
   width: 10px;
   border-radius: 50% !important;
@@ -731,3 +732,10 @@ code {
     border: 2px solid red !important;
   }
 } */
+
+.guidance-card .card-title {
+  width: 9.15094rem;
+  @media screen and (max-width: 768px) {
+    width: 15.8636rem;
+  }
+}
